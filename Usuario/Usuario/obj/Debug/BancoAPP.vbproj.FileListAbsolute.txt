@@ -1,0 +1,53 @@
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.exe.config
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.exe
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.pdb
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.xml
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbprojAssemblyReference.cache
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmReportes.resources
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmMovimientos.resources
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmPrincipal.resources
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmLogin.resources
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.Resources.resources
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmClientes.resources
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.GenerateResource.cache
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.exe
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.xml
+C:\Users\lenovo\Documents\PROYECTO VOZ DE VIEJA\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.pdb
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.exe.config
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.exe
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.pdb
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.xml
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbprojAssemblyReference.cache
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmReportes.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmMovimientos.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmPrincipal.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmLogin.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.Resources.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmClientes.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.GenerateResource.cache
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.exe
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.xml
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.pdb
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmCrearCuenta.resources
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.ResolveComReference.cache
+C:\Users\lenovo\Source\Repos\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmDetalles.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.exe.config
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.ResolveComReference.cache
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.exe
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.xml
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.pdb
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.exe
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.pdb
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\bin\Debug\BancoAPP.xml
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbprojResolveAssemblyReference.cache
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmCrearCuenta.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmDetalles.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmReportes.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmMovimientos.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmPrincipal.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmLogin.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.Resources.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.FrmClientes.resources
+C:\Users\Aldair Giron\Documents\Aldair Giron\2019\2019-II\Programacion Visual\BancoAPP(4)\BancoAPP\Usuario\Usuario\obj\Debug\BancoAPP.vbproj.GenerateResource.Cache
