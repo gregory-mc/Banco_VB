@@ -48,8 +48,8 @@ Partial Class FrmMovimientos
         Me.BtnBuscarCliente.BackgroundImage = CType(resources.GetObject("BtnBuscarCliente.BackgroundImage"), System.Drawing.Image)
         Me.BtnBuscarCliente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnBuscarCliente.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnBuscarCliente.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.BtnBuscarCliente.Location = New System.Drawing.Point(79, 41)
+        Me.BtnBuscarCliente.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.BtnBuscarCliente.Location = New System.Drawing.Point(64, 41)
         Me.BtnBuscarCliente.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnBuscarCliente.Name = "BtnBuscarCliente"
         Me.BtnBuscarCliente.Size = New System.Drawing.Size(149, 41)
@@ -61,118 +61,118 @@ Partial Class FrmMovimientos
         'LblNombre
         '
         Me.LblNombre.AutoSize = True
-        Me.LblNombre.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblNombre.Location = New System.Drawing.Point(87, 118)
+        Me.LblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblNombre.Location = New System.Drawing.Point(72, 118)
         Me.LblNombre.Name = "LblNombre"
-        Me.LblNombre.Size = New System.Drawing.Size(54, 16)
+        Me.LblNombre.Size = New System.Drawing.Size(68, 20)
         Me.LblNombre.TabIndex = 1
         Me.LblNombre.Text = "Nombre"
         '
         'TxtNombre
         '
-        Me.TxtNombre.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.TxtNombre.Location = New System.Drawing.Point(225, 114)
+        Me.TxtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.TxtNombre.Location = New System.Drawing.Point(210, 114)
         Me.TxtNombre.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TxtNombre.Name = "TxtNombre"
-        Me.TxtNombre.Size = New System.Drawing.Size(333, 23)
+        Me.TxtNombre.Size = New System.Drawing.Size(333, 26)
         Me.TxtNombre.TabIndex = 2
         '
         'LblTarjeta
         '
         Me.LblTarjeta.AutoSize = True
-        Me.LblTarjeta.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblTarjeta.Location = New System.Drawing.Point(86, 197)
+        Me.LblTarjeta.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblTarjeta.Location = New System.Drawing.Point(71, 197)
         Me.LblTarjeta.Name = "LblTarjeta"
-        Me.LblTarjeta.Size = New System.Drawing.Size(44, 16)
+        Me.LblTarjeta.Size = New System.Drawing.Size(61, 20)
         Me.LblTarjeta.TabIndex = 3
         Me.LblTarjeta.Text = "Tarjeta"
         '
         'ComboTarjeta
         '
-        Me.ComboTarjeta.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
+        Me.ComboTarjeta.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
         Me.ComboTarjeta.FormattingEnabled = True
-        Me.ComboTarjeta.Location = New System.Drawing.Point(225, 190)
+        Me.ComboTarjeta.Location = New System.Drawing.Point(210, 190)
         Me.ComboTarjeta.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboTarjeta.Name = "ComboTarjeta"
-        Me.ComboTarjeta.Size = New System.Drawing.Size(294, 24)
+        Me.ComboTarjeta.Size = New System.Drawing.Size(294, 28)
         Me.ComboTarjeta.TabIndex = 4
         '
         'LblCtaBancaria
         '
         Me.LblCtaBancaria.AutoSize = True
-        Me.LblCtaBancaria.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblCtaBancaria.Location = New System.Drawing.Point(86, 242)
+        Me.LblCtaBancaria.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblCtaBancaria.Location = New System.Drawing.Point(71, 242)
         Me.LblCtaBancaria.Name = "LblCtaBancaria"
-        Me.LblCtaBancaria.Size = New System.Drawing.Size(99, 16)
+        Me.LblCtaBancaria.Size = New System.Drawing.Size(134, 20)
         Me.LblCtaBancaria.TabIndex = 5
         Me.LblCtaBancaria.Text = "Cuenta Bancaria"
         '
         'ComboCtaBancaria
         '
-        Me.ComboCtaBancaria.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
+        Me.ComboCtaBancaria.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
         Me.ComboCtaBancaria.FormattingEnabled = True
-        Me.ComboCtaBancaria.Location = New System.Drawing.Point(225, 235)
+        Me.ComboCtaBancaria.Location = New System.Drawing.Point(210, 235)
         Me.ComboCtaBancaria.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboCtaBancaria.Name = "ComboCtaBancaria"
-        Me.ComboCtaBancaria.Size = New System.Drawing.Size(294, 24)
+        Me.ComboCtaBancaria.Size = New System.Drawing.Size(294, 28)
         Me.ComboCtaBancaria.TabIndex = 6
         '
         'LblOperacion
         '
         Me.LblOperacion.AutoSize = True
-        Me.LblOperacion.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblOperacion.Location = New System.Drawing.Point(86, 284)
+        Me.LblOperacion.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblOperacion.Location = New System.Drawing.Point(71, 284)
         Me.LblOperacion.Name = "LblOperacion"
-        Me.LblOperacion.Size = New System.Drawing.Size(66, 16)
+        Me.LblOperacion.Size = New System.Drawing.Size(86, 20)
         Me.LblOperacion.TabIndex = 7
         Me.LblOperacion.Text = "Operacion"
         '
         'ComboOperacion
         '
-        Me.ComboOperacion.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
+        Me.ComboOperacion.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
         Me.ComboOperacion.FormattingEnabled = True
-        Me.ComboOperacion.Location = New System.Drawing.Point(225, 279)
+        Me.ComboOperacion.Location = New System.Drawing.Point(210, 279)
         Me.ComboOperacion.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboOperacion.Name = "ComboOperacion"
-        Me.ComboOperacion.Size = New System.Drawing.Size(294, 24)
+        Me.ComboOperacion.Size = New System.Drawing.Size(294, 28)
         Me.ComboOperacion.TabIndex = 8
         '
         'LblMonto
         '
         Me.LblMonto.AutoSize = True
-        Me.LblMonto.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblMonto.Location = New System.Drawing.Point(87, 330)
+        Me.LblMonto.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblMonto.Location = New System.Drawing.Point(72, 330)
         Me.LblMonto.Name = "LblMonto"
-        Me.LblMonto.Size = New System.Drawing.Size(45, 16)
+        Me.LblMonto.Size = New System.Drawing.Size(55, 20)
         Me.LblMonto.TabIndex = 9
         Me.LblMonto.Text = "Monto"
         '
         'LblCtaDestino
         '
         Me.LblCtaDestino.AutoSize = True
-        Me.LblCtaDestino.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblCtaDestino.Location = New System.Drawing.Point(87, 372)
+        Me.LblCtaDestino.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblCtaDestino.Location = New System.Drawing.Point(72, 372)
         Me.LblCtaDestino.Name = "LblCtaDestino"
-        Me.LblCtaDestino.Size = New System.Drawing.Size(95, 16)
+        Me.LblCtaDestino.Size = New System.Drawing.Size(125, 20)
         Me.LblCtaDestino.TabIndex = 10
         Me.LblCtaDestino.Text = "Cuenta Destino"
         '
         'TxtMonto
         '
-        Me.TxtMonto.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.TxtMonto.Location = New System.Drawing.Point(225, 327)
+        Me.TxtMonto.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.TxtMonto.Location = New System.Drawing.Point(210, 327)
         Me.TxtMonto.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TxtMonto.Name = "TxtMonto"
-        Me.TxtMonto.Size = New System.Drawing.Size(333, 23)
+        Me.TxtMonto.Size = New System.Drawing.Size(333, 26)
         Me.TxtMonto.TabIndex = 11
         '
         'TxtCtaDestino
         '
-        Me.TxtCtaDestino.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.TxtCtaDestino.Location = New System.Drawing.Point(225, 368)
+        Me.TxtCtaDestino.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.TxtCtaDestino.Location = New System.Drawing.Point(210, 368)
         Me.TxtCtaDestino.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TxtCtaDestino.Name = "TxtCtaDestino"
-        Me.TxtCtaDestino.Size = New System.Drawing.Size(333, 23)
+        Me.TxtCtaDestino.Size = New System.Drawing.Size(333, 26)
         Me.TxtCtaDestino.TabIndex = 12
         '
         'BtnRealizarTransaccion
@@ -181,7 +181,7 @@ Partial Class FrmMovimientos
         Me.BtnRealizarTransaccion.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnRealizarTransaccion.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnRealizarTransaccion.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BtnRealizarTransaccion.Location = New System.Drawing.Point(280, 448)
+        Me.BtnRealizarTransaccion.Location = New System.Drawing.Point(276, 448)
         Me.BtnRealizarTransaccion.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BtnRealizarTransaccion.Name = "BtnRealizarTransaccion"
         Me.BtnRealizarTransaccion.Size = New System.Drawing.Size(222, 63)
@@ -192,45 +192,45 @@ Partial Class FrmMovimientos
         'LblDNI
         '
         Me.LblDNI.AutoSize = True
-        Me.LblDNI.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblDNI.Location = New System.Drawing.Point(87, 154)
+        Me.LblDNI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblDNI.Location = New System.Drawing.Point(72, 154)
         Me.LblDNI.Name = "LblDNI"
-        Me.LblDNI.Size = New System.Drawing.Size(31, 16)
+        Me.LblDNI.Size = New System.Drawing.Size(38, 20)
         Me.LblDNI.TabIndex = 14
         Me.LblDNI.Text = "DNI"
         '
         'TxtDNI
         '
-        Me.TxtDNI.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.TxtDNI.Location = New System.Drawing.Point(225, 149)
+        Me.TxtDNI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.TxtDNI.Location = New System.Drawing.Point(210, 149)
         Me.TxtDNI.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TxtDNI.Name = "TxtDNI"
-        Me.TxtDNI.Size = New System.Drawing.Size(333, 23)
+        Me.TxtDNI.Size = New System.Drawing.Size(333, 26)
         Me.TxtDNI.TabIndex = 15
         '
         'LblSaldo
         '
         Me.LblSaldo.AutoSize = True
-        Me.LblSaldo.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.LblSaldo.Location = New System.Drawing.Point(604, 219)
+        Me.LblSaldo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.LblSaldo.Location = New System.Drawing.Point(590, 220)
         Me.LblSaldo.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblSaldo.Name = "LblSaldo"
-        Me.LblSaldo.Size = New System.Drawing.Size(38, 16)
+        Me.LblSaldo.Size = New System.Drawing.Size(51, 20)
         Me.LblSaldo.TabIndex = 16
         Me.LblSaldo.Text = "Saldo"
         '
         'TxtSaldo
         '
-        Me.TxtSaldo.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.TxtSaldo.Location = New System.Drawing.Point(609, 261)
+        Me.TxtSaldo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.TxtSaldo.Location = New System.Drawing.Point(594, 261)
         Me.TxtSaldo.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtSaldo.Name = "TxtSaldo"
-        Me.TxtSaldo.Size = New System.Drawing.Size(116, 23)
+        Me.TxtSaldo.Size = New System.Drawing.Size(116, 26)
         Me.TxtSaldo.TabIndex = 17
         '
         'FrmMovimientos
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(775, 567)
@@ -252,7 +252,7 @@ Partial Class FrmMovimientos
         Me.Controls.Add(Me.TxtNombre)
         Me.Controls.Add(Me.LblNombre)
         Me.Controls.Add(Me.BtnBuscarCliente)
-        Me.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "FrmMovimientos"
         Me.Text = "Movimientos"

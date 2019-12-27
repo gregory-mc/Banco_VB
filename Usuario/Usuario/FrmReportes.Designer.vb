@@ -44,56 +44,62 @@ Partial Class FrmReportes
         '
         'TxtDNI
         '
-        Me.TxtDNI.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.TxtDNI.Location = New System.Drawing.Point(249, 69)
+        Me.TxtDNI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.TxtDNI.Location = New System.Drawing.Point(300, 85)
+        Me.TxtDNI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtDNI.MaxLength = 8
         Me.TxtDNI.Name = "TxtDNI"
-        Me.TxtDNI.Size = New System.Drawing.Size(235, 23)
+        Me.TxtDNI.Size = New System.Drawing.Size(312, 26)
         Me.TxtDNI.TabIndex = 0
         '
         'LblDNI
         '
         Me.LblDNI.AutoSize = True
-        Me.LblDNI.Font = New System.Drawing.Font("Lato Thin", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblDNI.Location = New System.Drawing.Point(86, 72)
+        Me.LblDNI.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblDNI.Location = New System.Drawing.Point(83, 89)
+        Me.LblDNI.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblDNI.Name = "LblDNI"
-        Me.LblDNI.Size = New System.Drawing.Size(37, 19)
+        Me.LblDNI.Size = New System.Drawing.Size(45, 25)
         Me.LblDNI.TabIndex = 1
         Me.LblDNI.Text = "DNI"
         '
         'ComboBoxCtaBancaria
         '
-        Me.ComboBoxCtaBancaria.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
+        Me.ComboBoxCtaBancaria.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
         Me.ComboBoxCtaBancaria.FormattingEnabled = True
-        Me.ComboBoxCtaBancaria.Location = New System.Drawing.Point(249, 121)
+        Me.ComboBoxCtaBancaria.Location = New System.Drawing.Point(300, 149)
+        Me.ComboBoxCtaBancaria.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBoxCtaBancaria.Name = "ComboBoxCtaBancaria"
-        Me.ComboBoxCtaBancaria.Size = New System.Drawing.Size(574, 24)
+        Me.ComboBoxCtaBancaria.Size = New System.Drawing.Size(484, 28)
         Me.ComboBoxCtaBancaria.TabIndex = 2
         '
         'FechaInicial
         '
-        Me.FechaInicial.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.FechaInicial.Location = New System.Drawing.Point(249, 173)
+        Me.FechaInicial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.FechaInicial.Location = New System.Drawing.Point(300, 213)
+        Me.FechaInicial.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FechaInicial.Name = "FechaInicial"
-        Me.FechaInicial.Size = New System.Drawing.Size(151, 23)
+        Me.FechaInicial.Size = New System.Drawing.Size(200, 26)
         Me.FechaInicial.TabIndex = 4
         Me.FechaInicial.Value = New Date(2019, 12, 10, 0, 0, 0, 0)
         '
         'FechaFin
         '
-        Me.FechaFin.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.FechaFin.Location = New System.Drawing.Point(464, 173)
+        Me.FechaFin.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.FechaFin.Location = New System.Drawing.Point(587, 213)
+        Me.FechaFin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.FechaFin.Name = "FechaFin"
-        Me.FechaFin.Size = New System.Drawing.Size(149, 23)
+        Me.FechaFin.Size = New System.Drawing.Size(197, 26)
         Me.FechaFin.TabIndex = 5
         '
         'CheckBoxCtaBancaria
         '
         Me.CheckBoxCtaBancaria.AutoSize = True
-        Me.CheckBoxCtaBancaria.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.CheckBoxCtaBancaria.Location = New System.Drawing.Point(90, 124)
+        Me.CheckBoxCtaBancaria.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.CheckBoxCtaBancaria.Location = New System.Drawing.Point(88, 153)
+        Me.CheckBoxCtaBancaria.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxCtaBancaria.Name = "CheckBoxCtaBancaria"
-        Me.CheckBoxCtaBancaria.Size = New System.Drawing.Size(118, 20)
+        Me.CheckBoxCtaBancaria.Size = New System.Drawing.Size(156, 24)
         Me.CheckBoxCtaBancaria.TabIndex = 1
         Me.CheckBoxCtaBancaria.Text = "Cuenta Bancaria"
         Me.CheckBoxCtaBancaria.UseVisualStyleBackColor = True
@@ -101,10 +107,11 @@ Partial Class FrmReportes
         'CheckBoxFecha
         '
         Me.CheckBoxFecha.AutoSize = True
-        Me.CheckBoxFecha.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.CheckBoxFecha.Location = New System.Drawing.Point(90, 173)
+        Me.CheckBoxFecha.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.CheckBoxFecha.Location = New System.Drawing.Point(88, 213)
+        Me.CheckBoxFecha.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxFecha.Name = "CheckBoxFecha"
-        Me.CheckBoxFecha.Size = New System.Drawing.Size(116, 20)
+        Me.CheckBoxFecha.Size = New System.Drawing.Size(153, 24)
         Me.CheckBoxFecha.TabIndex = 3
         Me.CheckBoxFecha.Text = "Rango de Fecha"
         Me.CheckBoxFecha.UseVisualStyleBackColor = True
@@ -115,9 +122,10 @@ Partial Class FrmReportes
         Me.BtnGenerar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnGenerar.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnGenerar.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.BtnGenerar.Location = New System.Drawing.Point(301, 344)
+        Me.BtnGenerar.Location = New System.Drawing.Point(359, 423)
+        Me.BtnGenerar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnGenerar.Name = "BtnGenerar"
-        Me.BtnGenerar.Size = New System.Drawing.Size(111, 32)
+        Me.BtnGenerar.Size = New System.Drawing.Size(148, 39)
         Me.BtnGenerar.TabIndex = 6
         Me.BtnGenerar.Text = "Generar"
         Me.BtnGenerar.UseVisualStyleBackColor = False
@@ -128,18 +136,20 @@ Partial Class FrmReportes
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridVReportes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridVReportes.Location = New System.Drawing.Point(47, 395)
+        Me.DataGridVReportes.Location = New System.Drawing.Point(91, 486)
+        Me.DataGridVReportes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DataGridVReportes.Name = "DataGridVReportes"
-        Me.DataGridVReportes.Size = New System.Drawing.Size(734, 185)
+        Me.DataGridVReportes.Size = New System.Drawing.Size(684, 228)
         Me.DataGridVReportes.TabIndex = 12
         '
         'CheckBoxMes
         '
         Me.CheckBoxMes.AutoSize = True
         Me.CheckBoxMes.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBoxMes.Location = New System.Drawing.Point(89, 270)
+        Me.CheckBoxMes.Location = New System.Drawing.Point(87, 332)
+        Me.CheckBoxMes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxMes.Name = "CheckBoxMes"
-        Me.CheckBoxMes.Size = New System.Drawing.Size(54, 23)
+        Me.CheckBoxMes.Size = New System.Drawing.Size(67, 27)
         Me.CheckBoxMes.TabIndex = 13
         Me.CheckBoxMes.Text = "Mes"
         Me.CheckBoxMes.UseVisualStyleBackColor = True
@@ -147,10 +157,11 @@ Partial Class FrmReportes
         'CheckBoxAño
         '
         Me.CheckBoxAño.AutoSize = True
-        Me.CheckBoxAño.Font = New System.Drawing.Font("Lato Thin", 9.749999!)
-        Me.CheckBoxAño.Location = New System.Drawing.Point(90, 224)
+        Me.CheckBoxAño.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!)
+        Me.CheckBoxAño.Location = New System.Drawing.Point(88, 276)
+        Me.CheckBoxAño.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBoxAño.Name = "CheckBoxAño"
-        Me.CheckBoxAño.Size = New System.Drawing.Size(49, 20)
+        Me.CheckBoxAño.Size = New System.Drawing.Size(60, 24)
         Me.CheckBoxAño.TabIndex = 14
         Me.CheckBoxAño.Text = "Año"
         Me.CheckBoxAño.UseVisualStyleBackColor = True
@@ -159,28 +170,30 @@ Partial Class FrmReportes
         '
         Me.MesPicker.CustomFormat = "MM"
         Me.MesPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.MesPicker.Location = New System.Drawing.Point(248, 269)
+        Me.MesPicker.Location = New System.Drawing.Point(299, 331)
+        Me.MesPicker.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MesPicker.Name = "MesPicker"
-        Me.MesPicker.Size = New System.Drawing.Size(200, 20)
+        Me.MesPicker.Size = New System.Drawing.Size(265, 22)
         Me.MesPicker.TabIndex = 17
         '
         'AnoPicker
         '
         Me.AnoPicker.CustomFormat = "yyyy"
         Me.AnoPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.AnoPicker.Location = New System.Drawing.Point(248, 227)
+        Me.AnoPicker.Location = New System.Drawing.Point(299, 279)
+        Me.AnoPicker.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.AnoPicker.Name = "AnoPicker"
-        Me.AnoPicker.Size = New System.Drawing.Size(200, 20)
+        Me.AnoPicker.Size = New System.Drawing.Size(265, 22)
         Me.AnoPicker.TabIndex = 18
         '
         'FrmReportes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Menu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(846, 592)
+        Me.ClientSize = New System.Drawing.Size(866, 729)
         Me.Controls.Add(Me.AnoPicker)
         Me.Controls.Add(Me.MesPicker)
         Me.Controls.Add(Me.CheckBoxAño)
@@ -194,6 +207,7 @@ Partial Class FrmReportes
         Me.Controls.Add(Me.ComboBoxCtaBancaria)
         Me.Controls.Add(Me.LblDNI)
         Me.Controls.Add(Me.TxtDNI)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FrmReportes"
         Me.Text = "Reportes"
         CType(Me.DataGridVReportes, System.ComponentModel.ISupportInitialize).EndInit()

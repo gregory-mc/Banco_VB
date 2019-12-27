@@ -62,9 +62,10 @@ Partial Class FrmClientes
         '
         Me.BtnSalir.BackgroundImage = CType(resources.GetObject("BtnSalir.BackgroundImage"), System.Drawing.Image)
         Me.BtnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.BtnSalir.Location = New System.Drawing.Point(672, 571)
+        Me.BtnSalir.Location = New System.Drawing.Point(896, 703)
+        Me.BtnSalir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnSalir.Name = "BtnSalir"
-        Me.BtnSalir.Size = New System.Drawing.Size(55, 53)
+        Me.BtnSalir.Size = New System.Drawing.Size(73, 65)
         Me.BtnSalir.TabIndex = 25
         Me.BtnSalir.UseVisualStyleBackColor = True
         '
@@ -73,9 +74,10 @@ Partial Class FrmClientes
         Me.BtnNuevo.BackgroundImage = CType(resources.GetObject("BtnNuevo.BackgroundImage"), System.Drawing.Image)
         Me.BtnNuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.BtnNuevo.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnNuevo.Location = New System.Drawing.Point(76, 174)
+        Me.BtnNuevo.Location = New System.Drawing.Point(101, 214)
+        Me.BtnNuevo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnNuevo.Name = "BtnNuevo"
-        Me.BtnNuevo.Size = New System.Drawing.Size(53, 44)
+        Me.BtnNuevo.Size = New System.Drawing.Size(71, 54)
         Me.BtnNuevo.TabIndex = 9
         Me.BtnNuevo.UseVisualStyleBackColor = True
         '
@@ -84,9 +86,10 @@ Partial Class FrmClientes
         Me.BtnGuardar.BackgroundImage = CType(resources.GetObject("BtnGuardar.BackgroundImage"), System.Drawing.Image)
         Me.BtnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.BtnGuardar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnGuardar.Location = New System.Drawing.Point(196, 174)
+        Me.BtnGuardar.Location = New System.Drawing.Point(261, 214)
+        Me.BtnGuardar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnGuardar.Name = "BtnGuardar"
-        Me.BtnGuardar.Size = New System.Drawing.Size(49, 48)
+        Me.BtnGuardar.Size = New System.Drawing.Size(65, 59)
         Me.BtnGuardar.TabIndex = 10
         Me.BtnGuardar.UseVisualStyleBackColor = True
         '
@@ -95,9 +98,10 @@ Partial Class FrmClientes
         Me.BtnModificar.BackgroundImage = CType(resources.GetObject("BtnModificar.BackgroundImage"), System.Drawing.Image)
         Me.BtnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.BtnModificar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnModificar.Location = New System.Drawing.Point(312, 174)
+        Me.BtnModificar.Location = New System.Drawing.Point(416, 214)
+        Me.BtnModificar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnModificar.Name = "BtnModificar"
-        Me.BtnModificar.Size = New System.Drawing.Size(43, 48)
+        Me.BtnModificar.Size = New System.Drawing.Size(57, 59)
         Me.BtnModificar.TabIndex = 11
         Me.BtnModificar.UseVisualStyleBackColor = True
         '
@@ -106,117 +110,131 @@ Partial Class FrmClientes
         Me.BtnEliminar.BackgroundImage = CType(resources.GetObject("BtnEliminar.BackgroundImage"), System.Drawing.Image)
         Me.BtnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.BtnEliminar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnEliminar.Location = New System.Drawing.Point(430, 172)
+        Me.BtnEliminar.Location = New System.Drawing.Point(573, 212)
+        Me.BtnEliminar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnEliminar.Name = "BtnEliminar"
-        Me.BtnEliminar.Size = New System.Drawing.Size(40, 48)
+        Me.BtnEliminar.Size = New System.Drawing.Size(53, 59)
         Me.BtnEliminar.TabIndex = 12
         Me.BtnEliminar.UseVisualStyleBackColor = True
         '
         'TxtDNI
         '
-        Me.TxtDNI.Location = New System.Drawing.Point(109, 44)
+        Me.TxtDNI.Location = New System.Drawing.Point(145, 54)
+        Me.TxtDNI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtDNI.MaxLength = 8
         Me.TxtDNI.Name = "TxtDNI"
-        Me.TxtDNI.Size = New System.Drawing.Size(139, 23)
+        Me.TxtDNI.Size = New System.Drawing.Size(184, 27)
         Me.TxtDNI.TabIndex = 0
         '
         'LblDNI
         '
         Me.LblDNI.AutoSize = True
-        Me.LblDNI.Location = New System.Drawing.Point(16, 47)
+        Me.LblDNI.Location = New System.Drawing.Point(21, 58)
+        Me.LblDNI.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblDNI.Name = "LblDNI"
-        Me.LblDNI.Size = New System.Drawing.Size(29, 15)
+        Me.LblDNI.Size = New System.Drawing.Size(41, 19)
         Me.LblDNI.TabIndex = 3
         Me.LblDNI.Text = "DNI"
         '
         'LblNombres
         '
         Me.LblNombres.AutoSize = True
-        Me.LblNombres.Location = New System.Drawing.Point(16, 87)
+        Me.LblNombres.Location = New System.Drawing.Point(21, 107)
+        Me.LblNombres.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblNombres.Name = "LblNombres"
-        Me.LblNombres.Size = New System.Drawing.Size(64, 15)
+        Me.LblNombres.Size = New System.Drawing.Size(85, 19)
         Me.LblNombres.TabIndex = 5
         Me.LblNombres.Text = "Nombres"
         '
         'TxtNombres
         '
-        Me.TxtNombres.Location = New System.Drawing.Point(109, 80)
+        Me.TxtNombres.Location = New System.Drawing.Point(145, 98)
+        Me.TxtNombres.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtNombres.Name = "TxtNombres"
-        Me.TxtNombres.Size = New System.Drawing.Size(180, 23)
+        Me.TxtNombres.Size = New System.Drawing.Size(239, 27)
         Me.TxtNombres.TabIndex = 1
         '
         'LblApMat
         '
         Me.LblApMat.AutoSize = True
-        Me.LblApMat.Location = New System.Drawing.Point(361, 44)
+        Me.LblApMat.Location = New System.Drawing.Point(481, 54)
+        Me.LblApMat.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblApMat.Name = "LblApMat"
-        Me.LblApMat.Size = New System.Drawing.Size(85, 15)
+        Me.LblApMat.Size = New System.Drawing.Size(111, 19)
         Me.LblApMat.TabIndex = 9
         Me.LblApMat.Text = "Ap. Materno"
         '
         'TxtApMat
         '
-        Me.TxtApMat.Location = New System.Drawing.Point(454, 37)
+        Me.TxtApMat.Location = New System.Drawing.Point(605, 46)
+        Me.TxtApMat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtApMat.Name = "TxtApMat"
-        Me.TxtApMat.Size = New System.Drawing.Size(162, 23)
+        Me.TxtApMat.Size = New System.Drawing.Size(215, 27)
         Me.TxtApMat.TabIndex = 3
         '
         'LblApPat
         '
         Me.LblApPat.AutoSize = True
-        Me.LblApPat.Location = New System.Drawing.Point(16, 123)
+        Me.LblApPat.Location = New System.Drawing.Point(21, 151)
+        Me.LblApPat.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblApPat.Name = "LblApPat"
-        Me.LblApPat.Size = New System.Drawing.Size(81, 15)
+        Me.LblApPat.Size = New System.Drawing.Size(103, 19)
         Me.LblApPat.TabIndex = 7
         Me.LblApPat.Text = "Ap. Paterno"
         '
         'TxtApPat
         '
-        Me.TxtApPat.Location = New System.Drawing.Point(109, 120)
+        Me.TxtApPat.Location = New System.Drawing.Point(145, 148)
+        Me.TxtApPat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtApPat.Name = "TxtApPat"
-        Me.TxtApPat.Size = New System.Drawing.Size(180, 23)
+        Me.TxtApPat.Size = New System.Drawing.Size(239, 27)
         Me.TxtApPat.TabIndex = 2
         '
         'LblDireccion
         '
         Me.LblDireccion.AutoSize = True
-        Me.LblDireccion.Location = New System.Drawing.Point(361, 122)
+        Me.LblDireccion.Location = New System.Drawing.Point(481, 150)
+        Me.LblDireccion.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblDireccion.Name = "LblDireccion"
-        Me.LblDireccion.Size = New System.Drawing.Size(67, 15)
+        Me.LblDireccion.Size = New System.Drawing.Size(90, 19)
         Me.LblDireccion.TabIndex = 13
         Me.LblDireccion.Text = "Direccion"
         '
         'TxtDireccion
         '
-        Me.TxtDireccion.Location = New System.Drawing.Point(454, 115)
+        Me.TxtDireccion.Location = New System.Drawing.Point(605, 142)
+        Me.TxtDireccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtDireccion.Name = "TxtDireccion"
-        Me.TxtDireccion.Size = New System.Drawing.Size(162, 23)
+        Me.TxtDireccion.Size = New System.Drawing.Size(215, 27)
         Me.TxtDireccion.TabIndex = 5
         '
         'LblCelular
         '
         Me.LblCelular.AutoSize = True
-        Me.LblCelular.Location = New System.Drawing.Point(361, 84)
+        Me.LblCelular.Location = New System.Drawing.Point(481, 103)
+        Me.LblCelular.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblCelular.Name = "LblCelular"
-        Me.LblCelular.Size = New System.Drawing.Size(50, 15)
+        Me.LblCelular.Size = New System.Drawing.Size(69, 19)
         Me.LblCelular.TabIndex = 11
         Me.LblCelular.Text = "Celular"
         '
         'TxtCelular
         '
-        Me.TxtCelular.Location = New System.Drawing.Point(454, 77)
+        Me.TxtCelular.Location = New System.Drawing.Point(605, 95)
+        Me.TxtCelular.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtCelular.MaxLength = 9
         Me.TxtCelular.Name = "TxtCelular"
-        Me.TxtCelular.Size = New System.Drawing.Size(162, 23)
+        Me.TxtCelular.Size = New System.Drawing.Size(215, 27)
         Me.TxtCelular.TabIndex = 4
         '
         'LblTitulo
         '
         Me.LblTitulo.AutoSize = True
         Me.LblTitulo.Font = New System.Drawing.Font("Palatino Linotype", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblTitulo.Location = New System.Drawing.Point(284, 9)
+        Me.LblTitulo.Location = New System.Drawing.Point(379, 11)
+        Me.LblTitulo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblTitulo.Name = "LblTitulo"
-        Me.LblTitulo.Size = New System.Drawing.Size(133, 43)
+        Me.LblTitulo.Size = New System.Drawing.Size(168, 53)
         Me.LblTitulo.TabIndex = 15
         Me.LblTitulo.Text = "Clientes"
         '
@@ -227,9 +245,10 @@ Partial Class FrmClientes
         Me.ListaClientes.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ListaClientes.FullRowSelect = True
         Me.ListaClientes.HideSelection = False
-        Me.ListaClientes.Location = New System.Drawing.Point(13, 53)
+        Me.ListaClientes.Location = New System.Drawing.Point(17, 65)
+        Me.ListaClientes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListaClientes.Name = "ListaClientes"
-        Me.ListaClientes.Size = New System.Drawing.Size(617, 168)
+        Me.ListaClientes.Size = New System.Drawing.Size(821, 206)
         Me.ListaClientes.TabIndex = 16
         Me.ListaClientes.UseCompatibleStateImageBehavior = False
         Me.ListaClientes.View = System.Windows.Forms.View.Details
@@ -266,17 +285,19 @@ Partial Class FrmClientes
         '
         'TxtBuscarCliente
         '
-        Me.TxtBuscarCliente.Location = New System.Drawing.Point(13, 21)
+        Me.TxtBuscarCliente.Location = New System.Drawing.Point(17, 26)
+        Me.TxtBuscarCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TxtBuscarCliente.MaxLength = 8
         Me.TxtBuscarCliente.Name = "TxtBuscarCliente"
-        Me.TxtBuscarCliente.Size = New System.Drawing.Size(198, 23)
+        Me.TxtBuscarCliente.Size = New System.Drawing.Size(263, 27)
         Me.TxtBuscarCliente.TabIndex = 17
         '
         'BtnAgregar
         '
-        Me.BtnAgregar.Location = New System.Drawing.Point(542, 227)
+        Me.BtnAgregar.Location = New System.Drawing.Point(723, 279)
+        Me.BtnAgregar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnAgregar.Name = "BtnAgregar"
-        Me.BtnAgregar.Size = New System.Drawing.Size(88, 33)
+        Me.BtnAgregar.Size = New System.Drawing.Size(117, 41)
         Me.BtnAgregar.TabIndex = 18
         Me.BtnAgregar.Text = "Agregar"
         Me.BtnAgregar.UseVisualStyleBackColor = True
@@ -289,9 +310,11 @@ Partial Class FrmClientes
         Me.PanelBus.Controls.Add(Me.BtnAgregar)
         Me.PanelBus.Controls.Add(Me.ListaClientes)
         Me.PanelBus.Font = New System.Drawing.Font("Lucida Sans", 9.75!)
-        Me.PanelBus.Location = New System.Drawing.Point(38, 304)
+        Me.PanelBus.Location = New System.Drawing.Point(51, 374)
+        Me.PanelBus.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelBus.Name = "PanelBus"
-        Me.PanelBus.Size = New System.Drawing.Size(649, 270)
+        Me.PanelBus.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelBus.Size = New System.Drawing.Size(865, 332)
         Me.PanelBus.TabIndex = 19
         Me.PanelBus.TabStop = False
         Me.PanelBus.Text = "Buscar Cliente"
@@ -299,10 +322,9 @@ Partial Class FrmClientes
         'LblBusqxDNI
         '
         Me.LblBusqxDNI.AutoSize = True
-        Me.LblBusqxDNI.Location = New System.Drawing.Point(215, 25)
-        Me.LblBusqxDNI.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LblBusqxDNI.Location = New System.Drawing.Point(287, 31)
         Me.LblBusqxDNI.Name = "LblBusqxDNI"
-        Me.LblBusqxDNI.Size = New System.Drawing.Size(121, 15)
+        Me.LblBusqxDNI.Size = New System.Drawing.Size(161, 19)
         Me.LblBusqxDNI.TabIndex = 19
         Me.LblBusqxDNI.Text = "Busqueda por DNI"
         '
@@ -327,9 +349,11 @@ Partial Class FrmClientes
         Me.PanelReg.Controls.Add(Me.LblDNI)
         Me.PanelReg.Controls.Add(Me.LblNombres)
         Me.PanelReg.Font = New System.Drawing.Font("Lucida Sans", 9.75!)
-        Me.PanelReg.Location = New System.Drawing.Point(38, 55)
+        Me.PanelReg.Location = New System.Drawing.Point(51, 68)
+        Me.PanelReg.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PanelReg.Name = "PanelReg"
-        Me.PanelReg.Size = New System.Drawing.Size(649, 243)
+        Me.PanelReg.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PanelReg.Size = New System.Drawing.Size(865, 299)
         Me.PanelReg.TabIndex = 20
         Me.PanelReg.TabStop = False
         Me.PanelReg.Text = "Registrar Cliente"
@@ -338,22 +362,24 @@ Partial Class FrmClientes
         '
         Me.BtnAtras.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnAtras.Image = CType(resources.GetObject("BtnAtras.Image"), System.Drawing.Image)
-        Me.BtnAtras.Location = New System.Drawing.Point(518, 172)
+        Me.BtnAtras.Location = New System.Drawing.Point(691, 212)
+        Me.BtnAtras.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnAtras.Name = "BtnAtras"
-        Me.BtnAtras.Size = New System.Drawing.Size(40, 46)
+        Me.BtnAtras.Size = New System.Drawing.Size(53, 57)
         Me.BtnAtras.TabIndex = 14
         Me.BtnAtras.UseVisualStyleBackColor = True
         '
         'FrmClientes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(725, 623)
+        Me.ClientSize = New System.Drawing.Size(967, 767)
         Me.Controls.Add(Me.PanelReg)
         Me.Controls.Add(Me.PanelBus)
         Me.Controls.Add(Me.LblTitulo)
         Me.Controls.Add(Me.BtnSalir)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FrmClientes"
         Me.Text = "Clientes"
         Me.PanelBus.ResumeLayout(False)

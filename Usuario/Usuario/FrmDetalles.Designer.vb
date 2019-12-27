@@ -45,12 +45,12 @@ Partial Class FrmDetalles
         DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DataGridVDetalles.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridVDetalles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridVDetalles.Location = New System.Drawing.Point(26, 120)
-        Me.DataGridVDetalles.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridVDetalles.Location = New System.Drawing.Point(36, 148)
+        Me.DataGridVDetalles.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridVDetalles.Name = "DataGridVDetalles"
         Me.DataGridVDetalles.ReadOnly = True
         Me.DataGridVDetalles.RowTemplate.Height = 24
-        Me.DataGridVDetalles.Size = New System.Drawing.Size(730, 277)
+        Me.DataGridVDetalles.Size = New System.Drawing.Size(973, 341)
         Me.DataGridVDetalles.TabIndex = 0
         '
         'LblDetalles
@@ -58,21 +58,20 @@ Partial Class FrmDetalles
         Me.LblDetalles.AutoSize = True
         Me.LblDetalles.BackColor = System.Drawing.Color.Transparent
         Me.LblDetalles.Font = New System.Drawing.Font("Lucida Sans", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblDetalles.Location = New System.Drawing.Point(327, 19)
-        Me.LblDetalles.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.LblDetalles.Location = New System.Drawing.Point(436, 23)
         Me.LblDetalles.Name = "LblDetalles"
-        Me.LblDetalles.Size = New System.Drawing.Size(141, 37)
+        Me.LblDetalles.Size = New System.Drawing.Size(175, 45)
         Me.LblDetalles.TabIndex = 1
         Me.LblDetalles.Text = "Detalles"
         '
         'TxtDNICliente
         '
         Me.TxtDNICliente.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtDNICliente.Location = New System.Drawing.Point(124, 84)
-        Me.TxtDNICliente.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TxtDNICliente.Location = New System.Drawing.Point(165, 103)
+        Me.TxtDNICliente.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TxtDNICliente.MaxLength = 8
         Me.TxtDNICliente.Name = "TxtDNICliente"
-        Me.TxtDNICliente.Size = New System.Drawing.Size(114, 26)
+        Me.TxtDNICliente.Size = New System.Drawing.Size(151, 31)
         Me.TxtDNICliente.TabIndex = 2
         '
         'Label1
@@ -80,26 +79,25 @@ Partial Class FrmDetalles
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Lucida Sans", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(22, 87)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(29, 107)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(98, 18)
+        Me.Label1.Size = New System.Drawing.Size(127, 23)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Inserte DNI:"
         '
         'FrmDetalles
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Menu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(784, 419)
+        Me.ClientSize = New System.Drawing.Size(1045, 516)
         Me.Controls.Add(Me.TxtDNICliente)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LblDetalles)
         Me.Controls.Add(Me.DataGridVDetalles)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "FrmDetalles"
         Me.Text = "Detalles"
         CType(Me.DataGridVDetalles, System.ComponentModel.ISupportInitialize).EndInit()

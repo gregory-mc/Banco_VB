@@ -95,11 +95,11 @@ Partial Class FrmCrearCuenta
         Me.TabTarjetaNueva.Controls.Add(Me.LblNombre)
         Me.TabTarjetaNueva.Controls.Add(Me.BtnGuardar)
         Me.TabTarjetaNueva.Controls.Add(Me.BtnAgregarCliente)
-        Me.TabTarjetaNueva.Location = New System.Drawing.Point(4, 22)
+        Me.TabTarjetaNueva.Location = New System.Drawing.Point(4, 26)
         Me.TabTarjetaNueva.Margin = New System.Windows.Forms.Padding(2)
         Me.TabTarjetaNueva.Name = "TabTarjetaNueva"
         Me.TabTarjetaNueva.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabTarjetaNueva.Size = New System.Drawing.Size(636, 483)
+        Me.TabTarjetaNueva.Size = New System.Drawing.Size(636, 479)
         Me.TabTarjetaNueva.TabIndex = 0
         Me.TabTarjetaNueva.Text = "Crear Tarjeta"
         '
@@ -109,7 +109,7 @@ Partial Class FrmCrearCuenta
         Me.ComboCredito.Items.AddRange(New Object() {"CLASICA", "GOLDEN", "PLATINUM"})
         Me.ComboCredito.Location = New System.Drawing.Point(496, 166)
         Me.ComboCredito.Name = "ComboCredito"
-        Me.ComboCredito.Size = New System.Drawing.Size(121, 21)
+        Me.ComboCredito.Size = New System.Drawing.Size(121, 25)
         Me.ComboCredito.TabIndex = 10
         Me.ComboCredito.Visible = False
         '
@@ -118,7 +118,7 @@ Partial Class FrmCrearCuenta
         Me.TxtSaldo.Enabled = False
         Me.TxtSaldo.Location = New System.Drawing.Point(210, 342)
         Me.TxtSaldo.Name = "TxtSaldo"
-        Me.TxtSaldo.Size = New System.Drawing.Size(138, 20)
+        Me.TxtSaldo.Size = New System.Drawing.Size(138, 23)
         Me.TxtSaldo.TabIndex = 9
         '
         'LblSaldo
@@ -126,7 +126,7 @@ Partial Class FrmCrearCuenta
         Me.LblSaldo.AutoSize = True
         Me.LblSaldo.Location = New System.Drawing.Point(52, 342)
         Me.LblSaldo.Name = "LblSaldo"
-        Me.LblSaldo.Size = New System.Drawing.Size(48, 13)
+        Me.LblSaldo.Size = New System.Drawing.Size(60, 17)
         Me.LblSaldo.TabIndex = 8
         Me.LblSaldo.Text = "SALDO"
         '
@@ -136,7 +136,7 @@ Partial Class FrmCrearCuenta
         Me.LblDNI.Location = New System.Drawing.Point(52, 125)
         Me.LblDNI.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblDNI.Name = "LblDNI"
-        Me.LblDNI.Size = New System.Drawing.Size(29, 13)
+        Me.LblDNI.Size = New System.Drawing.Size(34, 17)
         Me.LblDNI.TabIndex = 6
         Me.LblDNI.Text = "DNI"
         '
@@ -145,7 +145,7 @@ Partial Class FrmCrearCuenta
         Me.TxtDNI.Location = New System.Drawing.Point(210, 125)
         Me.TxtDNI.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDNI.Name = "TxtDNI"
-        Me.TxtDNI.Size = New System.Drawing.Size(223, 20)
+        Me.TxtDNI.Size = New System.Drawing.Size(223, 23)
         Me.TxtDNI.TabIndex = 3
         '
         'ComboTipoCuenta
@@ -154,7 +154,7 @@ Partial Class FrmCrearCuenta
         Me.ComboTipoCuenta.Location = New System.Drawing.Point(210, 256)
         Me.ComboTipoCuenta.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboTipoCuenta.Name = "ComboTipoCuenta"
-        Me.ComboTipoCuenta.Size = New System.Drawing.Size(223, 21)
+        Me.ComboTipoCuenta.Size = New System.Drawing.Size(223, 25)
         Me.ComboTipoCuenta.TabIndex = 6
         '
         'ComboTipoTarj
@@ -163,7 +163,7 @@ Partial Class FrmCrearCuenta
         Me.ComboTipoTarj.Location = New System.Drawing.Point(210, 166)
         Me.ComboTipoTarj.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboTipoTarj.Name = "ComboTipoTarj"
-        Me.ComboTipoTarj.Size = New System.Drawing.Size(223, 21)
+        Me.ComboTipoTarj.Size = New System.Drawing.Size(223, 25)
         Me.ComboTipoTarj.TabIndex = 4
         '
         'TxtNumCuenta
@@ -171,7 +171,7 @@ Partial Class FrmCrearCuenta
         Me.TxtNumCuenta.Location = New System.Drawing.Point(210, 302)
         Me.TxtNumCuenta.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNumCuenta.Name = "TxtNumCuenta"
-        Me.TxtNumCuenta.Size = New System.Drawing.Size(223, 20)
+        Me.TxtNumCuenta.Size = New System.Drawing.Size(223, 23)
         Me.TxtNumCuenta.TabIndex = 7
         '
         'TxtNumTarj
@@ -179,7 +179,7 @@ Partial Class FrmCrearCuenta
         Me.TxtNumTarj.Location = New System.Drawing.Point(210, 210)
         Me.TxtNumTarj.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNumTarj.Name = "TxtNumTarj"
-        Me.TxtNumTarj.Size = New System.Drawing.Size(223, 20)
+        Me.TxtNumTarj.Size = New System.Drawing.Size(223, 23)
         Me.TxtNumTarj.TabIndex = 5
         '
         'TxtNombre
@@ -187,7 +187,7 @@ Partial Class FrmCrearCuenta
         Me.TxtNombre.Location = New System.Drawing.Point(210, 87)
         Me.TxtNombre.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNombre.Name = "TxtNombre"
-        Me.TxtNombre.Size = New System.Drawing.Size(302, 20)
+        Me.TxtNombre.Size = New System.Drawing.Size(302, 23)
         Me.TxtNombre.TabIndex = 2
         '
         'LblNumCuenta
@@ -196,7 +196,7 @@ Partial Class FrmCrearCuenta
         Me.LblNumCuenta.Location = New System.Drawing.Point(52, 302)
         Me.LblNumCuenta.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNumCuenta.Name = "LblNumCuenta"
-        Me.LblNumCuenta.Size = New System.Drawing.Size(115, 13)
+        Me.LblNumCuenta.Size = New System.Drawing.Size(142, 17)
         Me.LblNumCuenta.TabIndex = 1
         Me.LblNumCuenta.Text = "NUMERO CUENTA"
         '
@@ -206,7 +206,7 @@ Partial Class FrmCrearCuenta
         Me.LblTipoCuenta.Location = New System.Drawing.Point(52, 256)
         Me.LblTipoCuenta.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblTipoCuenta.Name = "LblTipoCuenta"
-        Me.LblTipoCuenta.Size = New System.Drawing.Size(90, 13)
+        Me.LblTipoCuenta.Size = New System.Drawing.Size(111, 17)
         Me.LblTipoCuenta.TabIndex = 1
         Me.LblTipoCuenta.Text = "TIPO CUENTA"
         '
@@ -216,7 +216,7 @@ Partial Class FrmCrearCuenta
         Me.LblNumTarj.Location = New System.Drawing.Point(52, 210)
         Me.LblNumTarj.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNumTarj.Name = "LblNumTarj"
-        Me.LblNumTarj.Size = New System.Drawing.Size(120, 13)
+        Me.LblNumTarj.Size = New System.Drawing.Size(149, 17)
         Me.LblNumTarj.TabIndex = 1
         Me.LblNumTarj.Text = "NUMERO TARJETA"
         '
@@ -226,7 +226,7 @@ Partial Class FrmCrearCuenta
         Me.LblTipoTarj.Location = New System.Drawing.Point(52, 166)
         Me.LblTipoTarj.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblTipoTarj.Name = "LblTipoTarj"
-        Me.LblTipoTarj.Size = New System.Drawing.Size(95, 13)
+        Me.LblTipoTarj.Size = New System.Drawing.Size(118, 17)
         Me.LblTipoTarj.TabIndex = 1
         Me.LblTipoTarj.Text = "TIPO TARJETA"
         '
@@ -236,7 +236,7 @@ Partial Class FrmCrearCuenta
         Me.LblNombre.Location = New System.Drawing.Point(52, 92)
         Me.LblNombre.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNombre.Name = "LblNombre"
-        Me.LblNombre.Size = New System.Drawing.Size(60, 13)
+        Me.LblNombre.Size = New System.Drawing.Size(74, 17)
         Me.LblNombre.TabIndex = 1
         Me.LblNombre.Text = "NOMBRE"
         '
@@ -283,11 +283,11 @@ Partial Class FrmCrearCuenta
         Me.TabAñadirCuenta.Controls.Add(Me.TxtNombre2)
         Me.TabAñadirCuenta.Controls.Add(Me.LblNombre2)
         Me.TabAñadirCuenta.Controls.Add(Me.BtnAgregarCliente2)
-        Me.TabAñadirCuenta.Location = New System.Drawing.Point(4, 22)
+        Me.TabAñadirCuenta.Location = New System.Drawing.Point(4, 26)
         Me.TabAñadirCuenta.Margin = New System.Windows.Forms.Padding(2)
         Me.TabAñadirCuenta.Name = "TabAñadirCuenta"
         Me.TabAñadirCuenta.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabAñadirCuenta.Size = New System.Drawing.Size(636, 483)
+        Me.TabAñadirCuenta.Size = New System.Drawing.Size(636, 479)
         Me.TabAñadirCuenta.TabIndex = 1
         Me.TabAñadirCuenta.Text = "Añadir Cuenta"
         Me.TabAñadirCuenta.UseVisualStyleBackColor = True
@@ -296,7 +296,7 @@ Partial Class FrmCrearCuenta
         '
         Me.TxtSaldo2.Location = New System.Drawing.Point(218, 296)
         Me.TxtSaldo2.Name = "TxtSaldo2"
-        Me.TxtSaldo2.Size = New System.Drawing.Size(123, 20)
+        Me.TxtSaldo2.Size = New System.Drawing.Size(123, 23)
         Me.TxtSaldo2.TabIndex = 19
         '
         'LblSaldo2
@@ -304,7 +304,7 @@ Partial Class FrmCrearCuenta
         Me.LblSaldo2.AutoSize = True
         Me.LblSaldo2.Location = New System.Drawing.Point(84, 299)
         Me.LblSaldo2.Name = "LblSaldo2"
-        Me.LblSaldo2.Size = New System.Drawing.Size(48, 13)
+        Me.LblSaldo2.Size = New System.Drawing.Size(60, 17)
         Me.LblSaldo2.TabIndex = 18
         Me.LblSaldo2.Text = "SALDO"
         '
@@ -327,7 +327,7 @@ Partial Class FrmCrearCuenta
         Me.ComboTipoCuenta2.Location = New System.Drawing.Point(218, 223)
         Me.ComboTipoCuenta2.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboTipoCuenta2.Name = "ComboTipoCuenta2"
-        Me.ComboTipoCuenta2.Size = New System.Drawing.Size(223, 21)
+        Me.ComboTipoCuenta2.Size = New System.Drawing.Size(223, 25)
         Me.ComboTipoCuenta2.TabIndex = 16
         '
         'LblNumCuenta2
@@ -336,7 +336,7 @@ Partial Class FrmCrearCuenta
         Me.LblNumCuenta2.Location = New System.Drawing.Point(84, 257)
         Me.LblNumCuenta2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNumCuenta2.Name = "LblNumCuenta2"
-        Me.LblNumCuenta2.Size = New System.Drawing.Size(88, 13)
+        Me.LblNumCuenta2.Size = New System.Drawing.Size(109, 17)
         Me.LblNumCuenta2.TabIndex = 15
         Me.LblNumCuenta2.Text = "NRO CUENTA"
         '
@@ -346,7 +346,7 @@ Partial Class FrmCrearCuenta
         Me.LblTipoCuenta2.Location = New System.Drawing.Point(83, 222)
         Me.LblTipoCuenta2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblTipoCuenta2.Name = "LblTipoCuenta2"
-        Me.LblTipoCuenta2.Size = New System.Drawing.Size(90, 13)
+        Me.LblTipoCuenta2.Size = New System.Drawing.Size(111, 17)
         Me.LblTipoCuenta2.TabIndex = 14
         Me.LblTipoCuenta2.Text = "TIPO CUENTA"
         '
@@ -356,7 +356,7 @@ Partial Class FrmCrearCuenta
         Me.ComboNroTarjeta2.Location = New System.Drawing.Point(217, 185)
         Me.ComboNroTarjeta2.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboNroTarjeta2.Name = "ComboNroTarjeta2"
-        Me.ComboNroTarjeta2.Size = New System.Drawing.Size(222, 21)
+        Me.ComboNroTarjeta2.Size = New System.Drawing.Size(222, 25)
         Me.ComboNroTarjeta2.TabIndex = 13
         '
         'TxtNumCuenta2
@@ -364,7 +364,7 @@ Partial Class FrmCrearCuenta
         Me.TxtNumCuenta2.Location = New System.Drawing.Point(217, 257)
         Me.TxtNumCuenta2.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNumCuenta2.Name = "TxtNumCuenta2"
-        Me.TxtNumCuenta2.Size = New System.Drawing.Size(226, 20)
+        Me.TxtNumCuenta2.Size = New System.Drawing.Size(226, 23)
         Me.TxtNumCuenta2.TabIndex = 12
         '
         'LblNumTarjeta2
@@ -373,7 +373,7 @@ Partial Class FrmCrearCuenta
         Me.LblNumTarjeta2.Location = New System.Drawing.Point(83, 188)
         Me.LblNumTarjeta2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNumTarjeta2.Name = "LblNumTarjeta2"
-        Me.LblNumTarjeta2.Size = New System.Drawing.Size(94, 13)
+        Me.LblNumTarjeta2.Size = New System.Drawing.Size(116, 17)
         Me.LblNumTarjeta2.TabIndex = 11
         Me.LblNumTarjeta2.Text = "NUM TARJETA"
         '
@@ -383,7 +383,7 @@ Partial Class FrmCrearCuenta
         Me.LblDNI2.Location = New System.Drawing.Point(83, 157)
         Me.LblDNI2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblDNI2.Name = "LblDNI2"
-        Me.LblDNI2.Size = New System.Drawing.Size(29, 13)
+        Me.LblDNI2.Size = New System.Drawing.Size(34, 17)
         Me.LblDNI2.TabIndex = 10
         Me.LblDNI2.Text = "DNI"
         '
@@ -392,7 +392,7 @@ Partial Class FrmCrearCuenta
         Me.TxtDNI2.Location = New System.Drawing.Point(217, 154)
         Me.TxtDNI2.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtDNI2.Name = "TxtDNI2"
-        Me.TxtDNI2.Size = New System.Drawing.Size(151, 20)
+        Me.TxtDNI2.Size = New System.Drawing.Size(151, 23)
         Me.TxtDNI2.TabIndex = 9
         '
         'TxtNombre2
@@ -400,7 +400,7 @@ Partial Class FrmCrearCuenta
         Me.TxtNombre2.Location = New System.Drawing.Point(217, 116)
         Me.TxtNombre2.Margin = New System.Windows.Forms.Padding(2)
         Me.TxtNombre2.Name = "TxtNombre2"
-        Me.TxtNombre2.Size = New System.Drawing.Size(347, 20)
+        Me.TxtNombre2.Size = New System.Drawing.Size(347, 23)
         Me.TxtNombre2.TabIndex = 8
         '
         'LblNombre2
@@ -409,7 +409,7 @@ Partial Class FrmCrearCuenta
         Me.LblNombre2.Location = New System.Drawing.Point(83, 119)
         Me.LblNombre2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LblNombre2.Name = "LblNombre2"
-        Me.LblNombre2.Size = New System.Drawing.Size(60, 13)
+        Me.LblNombre2.Size = New System.Drawing.Size(74, 17)
         Me.LblNombre2.TabIndex = 7
         Me.LblNombre2.Text = "NOMBRE"
         '
@@ -427,7 +427,7 @@ Partial Class FrmCrearCuenta
         '
         'FrmCrearCuenta
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.ClientSize = New System.Drawing.Size(723, 567)

@@ -189,7 +189,7 @@ Public Class FrmCrearCuenta
 
     Private Sub BtnAñadirCuenta_Click(sender As Object, e As EventArgs) Handles BtnAñadirCuenta.Click
         Try
-            Dim cmd As New SqlCommand("sp_GuardarCuenta'" & Me.TxtDNI2.Text & "', ' ', '" & Me.ComboNroTarjeta2.SelectedItem.ToString & "', '" & Me.ComboTipoCuenta2.Text & "', '" & Me.TxtNumCuenta2.Text & "', '" & Me.TxtNumCuenta2.Text & "'", dbConnection)
+            Dim cmd As New SqlCommand("sp_GuardarCuenta'" & Me.TxtDNI2.Text & "', ' ', '" & Me.ComboNroTarjeta2.SelectedItem.ToString & "', '" & Me.ComboTipoCuenta2.Text & "', '" & Me.TxtNumCuenta2.Text & "', '" & Me.TxtSaldo2.Text & "'", dbConnection)
             If (cmd.ExecuteNonQuery()) Then
                 MsgBox("Datos Guardados Correctamente")
                 LimpiarTextos()

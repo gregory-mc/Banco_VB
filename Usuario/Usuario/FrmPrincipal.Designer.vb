@@ -42,9 +42,10 @@ Partial Class FrmPrincipal
         Me.BtnClientes.BackColor = System.Drawing.Color.Yellow
         Me.BtnClientes.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnClientes.Location = New System.Drawing.Point(23, 198)
+        Me.BtnClientes.Location = New System.Drawing.Point(43, 244)
+        Me.BtnClientes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnClientes.Name = "BtnClientes"
-        Me.BtnClientes.Size = New System.Drawing.Size(124, 39)
+        Me.BtnClientes.Size = New System.Drawing.Size(165, 48)
         Me.BtnClientes.TabIndex = 0
         Me.BtnClientes.Text = "◀ Clientes"
         Me.BtnClientes.UseVisualStyleBackColor = False
@@ -55,9 +56,10 @@ Partial Class FrmPrincipal
         Me.BtnMovimientos.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnMovimientos.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnMovimientos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BtnMovimientos.Location = New System.Drawing.Point(394, 198)
+        Me.BtnMovimientos.Location = New System.Drawing.Point(537, 244)
+        Me.BtnMovimientos.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnMovimientos.Name = "BtnMovimientos"
-        Me.BtnMovimientos.Size = New System.Drawing.Size(124, 39)
+        Me.BtnMovimientos.Size = New System.Drawing.Size(165, 48)
         Me.BtnMovimientos.TabIndex = 2
         Me.BtnMovimientos.Text = "Movimientos ▶"
         Me.BtnMovimientos.UseVisualStyleBackColor = False
@@ -65,9 +67,10 @@ Partial Class FrmPrincipal
         'LblNombre
         '
         Me.LblNombre.AutoSize = True
-        Me.LblNombre.Location = New System.Drawing.Point(391, 27)
+        Me.LblNombre.Location = New System.Drawing.Point(521, 33)
+        Me.LblNombre.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblNombre.Name = "LblNombre"
-        Me.LblNombre.Size = New System.Drawing.Size(83, 13)
+        Me.LblNombre.Size = New System.Drawing.Size(111, 17)
         Me.LblNombre.TabIndex = 2
         Me.LblNombre.Text = "Nombre Usuario"
         '
@@ -76,9 +79,10 @@ Partial Class FrmPrincipal
         Me.BtnReportes.BackColor = System.Drawing.Color.Yellow
         Me.BtnReportes.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnReportes.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnReportes.Location = New System.Drawing.Point(394, 295)
+        Me.BtnReportes.Location = New System.Drawing.Point(537, 363)
+        Me.BtnReportes.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.BtnReportes.Name = "BtnReportes"
-        Me.BtnReportes.Size = New System.Drawing.Size(124, 39)
+        Me.BtnReportes.Size = New System.Drawing.Size(165, 48)
         Me.BtnReportes.TabIndex = 3
         Me.BtnReportes.Text = "Reportes ▶"
         Me.BtnReportes.UseVisualStyleBackColor = False
@@ -88,10 +92,10 @@ Partial Class FrmPrincipal
         Me.BtnCuentas.BackColor = System.Drawing.Color.Yellow
         Me.BtnCuentas.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCuentas.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCuentas.Location = New System.Drawing.Point(23, 295)
-        Me.BtnCuentas.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnCuentas.Location = New System.Drawing.Point(43, 363)
+        Me.BtnCuentas.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnCuentas.Name = "BtnCuentas"
-        Me.BtnCuentas.Size = New System.Drawing.Size(124, 39)
+        Me.BtnCuentas.Size = New System.Drawing.Size(165, 48)
         Me.BtnCuentas.TabIndex = 1
         Me.BtnCuentas.Text = "◀ Cuentas"
         Me.BtnCuentas.UseVisualStyleBackColor = False
@@ -100,9 +104,10 @@ Partial Class FrmPrincipal
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(0, 60)
+        Me.Panel1.Location = New System.Drawing.Point(0, 74)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(560, 55)
+        Me.Panel1.Size = New System.Drawing.Size(747, 68)
         Me.Panel1.TabIndex = 4
         '
         'Label1
@@ -111,9 +116,10 @@ Partial Class FrmPrincipal
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(155, 17)
+        Me.Label1.Location = New System.Drawing.Point(228, 21)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(229, 22)
+        Me.Label1.Size = New System.Drawing.Size(291, 28)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Seleccione una Opción :"
         '
@@ -121,18 +127,20 @@ Partial Class FrmPrincipal
         '
         Me.LblUsuario.BackColor = System.Drawing.Color.Transparent
         Me.LblUsuario.Image = CType(resources.GetObject("LblUsuario.Image"), System.Drawing.Image)
-        Me.LblUsuario.Location = New System.Drawing.Point(505, 9)
+        Me.LblUsuario.Location = New System.Drawing.Point(673, 11)
+        Me.LblUsuario.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblUsuario.Name = "LblUsuario"
-        Me.LblUsuario.Size = New System.Drawing.Size(42, 48)
+        Me.LblUsuario.Size = New System.Drawing.Size(56, 59)
         Me.LblUsuario.TabIndex = 6
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(185, 171)
+        Me.PictureBox1.Location = New System.Drawing.Point(259, 210)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(174, 177)
+        Me.PictureBox1.Size = New System.Drawing.Size(232, 218)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
@@ -140,22 +148,23 @@ Partial Class FrmPrincipal
         'BtnDetalles
         '
         Me.BtnDetalles.BackColor = System.Drawing.Color.Yellow
+        Me.BtnDetalles.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnDetalles.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!)
-        Me.BtnDetalles.Location = New System.Drawing.Point(202, 370)
-        Me.BtnDetalles.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.BtnDetalles.Location = New System.Drawing.Point(290, 455)
+        Me.BtnDetalles.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnDetalles.Name = "BtnDetalles"
-        Me.BtnDetalles.Size = New System.Drawing.Size(124, 39)
+        Me.BtnDetalles.Size = New System.Drawing.Size(165, 48)
         Me.BtnDetalles.TabIndex = 8
         Me.BtnDetalles.Text = "Detalles ▶"
         Me.BtnDetalles.UseVisualStyleBackColor = False
         '
         'FrmPrincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(559, 435)
+        Me.ClientSize = New System.Drawing.Size(745, 535)
         Me.Controls.Add(Me.BtnDetalles)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LblUsuario)
@@ -165,6 +174,7 @@ Partial Class FrmPrincipal
         Me.Controls.Add(Me.LblNombre)
         Me.Controls.Add(Me.BtnMovimientos)
         Me.Controls.Add(Me.BtnClientes)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FrmPrincipal"
         Me.Text = "Menú Principal"
         Me.Panel1.ResumeLayout(False)
