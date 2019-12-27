@@ -2,6 +2,7 @@
     Private Sub BtnClientes_Click(sender As Object, e As EventArgs) Handles BtnClientes.Click
         Variables.vista = 0
         FrmClientes.Show()
+        FrmClientes.BtnAgregar.Visible = False
     End Sub
 
     Private Sub BtnCuentas_Click(sender As Object, e As EventArgs) Handles BtnCuentas.Click

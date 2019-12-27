@@ -14,6 +14,7 @@ Public Class FrmCrearCuenta
         Variables.vista = 2
         FrmClientes.Show()
         FrmClientes.TxtBuscarCliente.Focus()
+        FrmClientes.BtnAgregar.Visible = True
     End Sub
 
     Private Sub ComboTipoTarj_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboTipoTarj.SelectedIndexChanged
@@ -172,6 +173,7 @@ Public Class FrmCrearCuenta
         Variables.vista = 2
         FrmClientes.Show()
         FrmClientes.TxtBuscarCliente.Focus()
+        FrmClientes.BtnAgregar.Visible = True
     End Sub
 
     Private Sub TxtDNI2_TextChanged(sender As Object, e As EventArgs) Handles TxtDNI2.TextChanged
@@ -192,7 +194,13 @@ Public Class FrmCrearCuenta
             Dim cmd As New SqlCommand("sp_GuardarCuenta'" & Me.TxtDNI2.Text & "', ' ', '" & Me.ComboNroTarjeta2.SelectedItem.ToString & "', '" & Me.ComboTipoCuenta2.Text & "', '" & Me.TxtNumCuenta2.Text & "', '" & Me.TxtSaldo2.Text & "'", dbConnection)
             If (cmd.ExecuteNonQuery()) Then
                 MsgBox("Datos Guardados Correctamente")
-                LimpiarTextos()
+                Me.ComboCredito.Visible = False
+                Me.TxtDNI2.Clear()
+                Me.TxtNombre2.Clear()
+                Me.TxtNumCuenta2.Clear()
+                Me.ComboNroTarjeta2.Text = ""
+                Me.ComboTipoCuenta2.Text = ""
+                Me.TxtSaldo2.Clear()
             Else
                 MsgBox("No Se Guardaron Los Datos")
             End If

@@ -7,6 +7,7 @@ Public Class FrmMovimientos
         Variables.vista = 2
         FrmClientes.Show()
         FrmClientes.TxtBuscarCliente.Focus()
+        FrmClientes.BtnAgregar.Visible = True
     End Sub
 
     Private Sub FrmMovimientos_Closed(sender As Object, e As EventArgs) Handles Me.Closed
